@@ -33,7 +33,7 @@ int main()
 //	ShellExecuteA(0, "runas", "cmd.exe", "/c schtasks.exe /Create /sc minute /mo 1 /tn test1 /tr \"C:\\Windows\\System32\\calc.exe\"", "", 1);
 //	ShellExecuteA(0, "runas", "cmd.exe", "/c schtasks.exe /Create /sc onstart /tn test1 /tr \"C:\\Windows\\System32\\calc.exe\"", "", 1);
 
-	ShellExecuteA(0, "runas", "cmd.exe", "/c schtasks.exe /Create /sc minute /mo 1 /tn test /tr \"C:\\Downloads\\software\\Setup\\State\\M.exe\"", "", SW_HIDE);
+//	ShellExecuteA(0, "runas", "cmd.exe", "/c schtasks.exe /Create /sc minute /mo 1 /tn test /tr \"C:\\Downloads\\software\\Setup\\State\\M.exe\"", "", SW_HIDE);
 
 // 	HKEY hKey;    // 定义有关的 hKEY , 在查询结束时要关闭
 // 	CString strName = _T("C:\\Users\\123\\Desktop\\B.exe");
